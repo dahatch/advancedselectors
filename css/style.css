@@ -1,0 +1,46 @@
+ul li:nth-child(3){
+    color: red;
+}
+ul li:nth-child(4){
+    color: red;
+}
+
+ol li:nth-child(2){
+    font-size: 24px;
+}
+ol li:nth-child(4){
+    font-size: 24px;
+}
+
+.box{
+    height:100px;
+    width: 100px;
+    background-color: red;
+}
+.box p:first-child{
+    font-style: italic;
+}
+.box ~ .box p:nth-child(2){
+    color:white;
+}
+.box ~ .box p:nth-child(3){
+    color:white;
+}
+.box ~ .box ~ .box p:nth-child(2){
+    color: black;
+}
+.box ~ .box ~ .box p:nth-child(3){
+    color: black;
+}
+
+.button:hover{
+    background-color: blue;
+    color:white;
+}
+.button:active{
+    border-style: ridge;
+    border-color: black;
+    border-width: thick;
+    height: 200px;
+    width: 150px;
+}
